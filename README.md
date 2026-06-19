@@ -1,10 +1,10 @@
-# 🍳 API RESTful - Plataforma de Recetas (Flask)
+# API RESTful - Plataforma de Recetas (Flask)
 
 > Una API robusta desarrollada con Flask para gestionar una plataforma interactiva de recetas de cocina. Permite la administración de usuarios, creación de recetas, manejo de ingredientes, subida de imágenes, comentarios, valoraciones y cuenta con autenticación segura.
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
 * **Autenticación Segura:** Sistema de registro e inicio de sesión utilizando tokens JWT (JSON Web Tokens).
 * **Gestión de Recetas:** Operaciones CRUD completas para recetas, incluyendo la vinculación con ingredientes específicos y unidades de medida.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3
 * **Framework:** Flask
@@ -25,7 +25,7 @@
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 [cite_start]El proyecto sigue una arquitectura modular utilizando `Blueprints` de Flask para separar las rutas lógicas del sistema[cite: 1, 2]:
 
@@ -45,3 +45,5 @@
     ├── unidades.py
     ├── usuarios.py
     └── votos_receta.py
+
+
